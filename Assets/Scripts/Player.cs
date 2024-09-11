@@ -55,16 +55,16 @@ public class Player : MonoBehaviour
         {
             triggerDive = true;
         }
-        else if (Input.touchCount > 0)
+       // else if (Input.touchCount > 0)
         {
             //TODO:
             //If touch is upper half of screen jump
             //Else - dive
-            Touch touch = Input.GetTouch(0);
-            if (touch.phase == TouchPhase.Began)
-            {
-                triggerJump = true;
-            }
+           //Touch touch = Input.GetTouch(0);
+           // if (touch.phase == TouchPhase.Began)
+           // {
+           //     triggerJump = true;
+           // }
         }
     }
 
